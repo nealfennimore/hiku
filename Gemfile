@@ -58,10 +58,10 @@ group :test do
   gem 'simplecov', '~> 0.8.0',  :require => false
   gem 'faker'
   gem 'capybara'
-  gem 'guard-rspec'
+  gem 'guard-rspec', '>= 4.3.1'
   gem 'launchy'
   gem 'shoulda'
-  gem 'selenium-webdriver'
+  gem 'selenium-webdriver', '>= 2.42.0'
   gem 'database_cleaner'
 end
 
