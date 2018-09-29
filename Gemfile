@@ -61,7 +61,7 @@ group :test do
   gem 'guard-rspec'
   gem 'launchy'
   gem 'shoulda'
-  gem 'selenium-webdriver'
+  gem 'selenium-webdriver', '>= 2.42.0'
   gem 'database_cleaner'
 end
 
