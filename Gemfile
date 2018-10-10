@@ -57,7 +57,7 @@ end
 group :test do
   gem 'simplecov', '~> 0.8.0',  :require => false
   gem 'faker'
-  gem 'capybara'
+  gem 'capybara', '>= 2.4.1'
   gem 'guard-rspec'
   gem 'launchy'
   gem 'shoulda'
